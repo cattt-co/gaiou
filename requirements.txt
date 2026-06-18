@@ -1,0 +1,16 @@
+# AOD-YOLOv8 — reconstructed thesis environment.
+#
+# Thesis environment (use these on the GPU/A40 server, CUDA 12.4):
+#   Python 3.11.8, PyTorch 2.4.0
+#       pip install torch==2.4.0 torchvision --index-url https://download.pytorch.org/whl/cu124
+#
+# Then:
+ultralytics>=8.3.0
+opencv-python-headless
+albumentations            # enables online Blur/CLAHE augmentation (thesis 4.1.1.2)
+numpy
+
+# The Rotated_IoU CUDA vertex-sort kernel (RIoU/CRIoU, fast path) is built from
+# vendored source on the GPU server:
+#       cd rotated_iou/cuda_op && python setup.py install
+# Without it, a pure-PyTorch CPU fallback is used automatically (aod_yolov8/_sort_cpu.py).

@@ -1,0 +1,12 @@
+# DOTA-RBD: square-object subset of DOTAv1 (roundabout + baseball diamond).
+# Built by scripts/build_dota_rbd.py, then tiled by scripts/preprocess.py.
+# Set `path` to the tiled output root (the dir containing images/ and labels/).
+
+path: /ABS/PATH/TO/DOTA-RBD-split # <-- EDIT to your tiled DOTA-RBD root
+train: images/train
+val: images/val
+
+# 2 classes, remapped from DOTAv1 (3=baseball diamond, 12=roundabout)
+names:
+  0: baseball diamond
+  1: roundabout

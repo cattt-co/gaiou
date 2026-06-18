@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+runs/
+datasets/
+viz/
+*.pt
+rotated_iou/cuda_op/build/
+rotated_iou/cuda_op/*.egg-info/
+rotated_iou/cuda_op/*.so
+paper/
