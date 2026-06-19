@@ -73,6 +73,22 @@ Swap `--model yolo26n-obb.pt` for the NMS-free backbone.
 - `scripts/profile_criou.py` — per-stage speed breakdown (isolates the enclosing box).
 - `scripts/test_ga_nms.py`, `scripts/test_ga_nms_lambda.py` — GA-NMS over/under-suppression and λ calibration.
 
+## Citation
+Paper (Zenodo preprint, [10.5281/zenodo.20754295](https://doi.org/10.5281/zenodo.20754295)):
+
+```bibtex
+@misc{san2026gaiou,
+  title        = {Recovering Square-Object Orientation at Gaussian Speed:
+                  Efficient Orientation-Aware IoU Losses for Arbitrary-Oriented Object Detection},
+  author       = {San, Kaung Htet and Kyaw, Aung Ye},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.20754295},
+  url          = {https://doi.org/10.5281/zenodo.20754295},
+  note         = {Preprint}
+}
+```
+
 ## License
 AGPL-3.0 (see [LICENSE](LICENSE)), consistent with the Ultralytics base it extends.
 The vendored `rotated_iou/` retains its original MIT license.

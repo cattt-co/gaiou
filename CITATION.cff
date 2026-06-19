@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the preprint below."
+title: "GAIoU: Efficient Orientation-Aware IoU Losses for Arbitrary-Oriented Object Detection"
+authors:
+  - family-names: San
+    given-names: Kaung Htet
+    affiliation: Cattt Lab
+  - family-names: Kyaw
+    given-names: Aung Ye
+    affiliation: Cattt Lab
+license: AGPL-3.0
+repository-code: "https://github.com/cattt-co/gaiou"
+preferred-citation:
+  type: article
+  title: "Recovering Square-Object Orientation at Gaussian Speed: Efficient Orientation-Aware IoU Losses for Arbitrary-Oriented Object Detection"
+  authors:
+    - family-names: San
+      given-names: Kaung Htet
+    - family-names: Kyaw
+      given-names: Aung Ye
+  year: 2026
+  doi: 10.5281/zenodo.20754295
+  url: "https://doi.org/10.5281/zenodo.20754295"
+  notes: Preprint
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20754295
